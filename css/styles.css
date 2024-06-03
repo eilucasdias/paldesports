@@ -1,0 +1,117 @@
+/* Estilos gerais */
+body {
+    background-color: #0B0B0B;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1A1A1A;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Estilo do rodapé */
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1a1a1a;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    opacity: 1;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid #1a1a1a;
+    border-left: 1px solid #2c2c2cb1;
+    border-right: 1px solid #2c2c2cb1;
+    border-top: 1px solid #2c2c2cb1;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    max-width: 966px;
+    width: 100%;
+    color: #fff;
+    padding: 25px;
+}
+
+.rodape-conteudo h2 {
+    margin: 0;
+}
+
+.rodape-conteudo p {
+    margin: 0;
+}
+
+/* Estilo dos menus */
+.menu-left,
+.menu-center,
+.menu-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-left li,
+.menu-center li,
+.menu-right li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-left li:last-child,
+.menu-center li:last-child,
+.menu-right li:last-child {
+    margin-right: 0;
+}
+
+/* Estilo dos botões do menu */
+.menu-left li a,
+.menu-center li a,
+.menu-right li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    transition: background-color 0.3s ease;
+}
+
+.menu-left li a:hover,
+.menu-center li a:hover,
+.menu-right li a:hover {
+    background-color: #333333;
+}
+
+/* Estilo do ícone no menu */
+.menu-right li a i {
+    color: #FFFFFF;
+}
+
+.menu-right li a:hover i {
+    color: #FFD700;
+}
+
+/* Estilo do modo claro */
+.modo-claro {
+    background-color: #FFFFFF;
+    color: #ffffff;
+}
+
