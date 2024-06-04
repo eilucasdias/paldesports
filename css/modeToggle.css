@@ -1,0 +1,59 @@
+.modo-claro #modo-claro {
+  background-color: #0077ff9d;
+}
+.modo-claro #modo-claro:hover {
+  background-color: #0077ff;
+}
+.modo-claro .fc24-img img {
+  filter: initial;
+}
+.modo-claro {
+  background-color: #f1f1f1;
+  color: #ffffff;
+}
+.modo-claro header {
+  background-color: #fafafa;
+  box-shadow: 0px 0px 5px #33333346;
+  border: none;
+}
+.modo-claro .fc24-window,
+.modo-claro .rodape,
+.modo-claro .square,
+.modo-claro .footer {
+  background-color: white;
+  box-shadow: 0px 5px 10px #33333338;
+  border: none;
+  color: #333;
+}
+.modo-claro .rodape-conteudo {
+  color: #333;
+}
+.modo-claro .fc24-img img {
+  opacity: 0.7;
+}
+.modo-claro nav a {
+  color: #333;
+}
+.modo-claro nav a:hover {
+  color: initial;
+}
+.modo-claro #verMais {
+  background-color: #0077ff9d;
+}
+.modo-claro #verMais:hover {
+  background-color: #0077ff;
+}
+.modo-claro .link-criar-uma-conta {
+  background-color: #0077ff9d;
+  color: white;
+}
+.modo-claro .link-criar-uma-conta:hover {
+  color: white;
+  background-color: #0077ff;
+}
+.modo-claro .button-anim {
+  background-color: #0077ff9d;
+}
+.modo-claro .button-anim::before {
+  background-color: #0077ff;
+}

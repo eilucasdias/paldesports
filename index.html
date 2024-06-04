@@ -1,42 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seu Site</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-
-<body id="body">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PALDESPORTS</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/modeToggle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="body">
     <header>
-        <nav>
-            <ul class="menu-left">
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Criar conta</a></li>
-            </ul>
-            <ul class="menu-center">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-            </ul>
-            <ul class="menu-right">
-                <li><a href="#" id="modo-claro"><i class="fas fa-lightbulb"></i> Modo Claro</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="menu-left">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Equipe</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+        <ul class="menu-right">
+          <li>
+            <a href="#" id="modo-claro"
+              ><i class="fas fa-sun"></i>
+              <i class="fas fa-moon"></i>
+            </a>
+          </li>
+          <li><a href="#">Login</a></li>
+          <li><a class="link-criar-uma-conta" href="#">Criar uma conta</a></li>
+        </ul>
+      </nav>
     </header>
+    <!-- <div class="overlay-1" id="overlay-1"></div>
+    <div class="popup-1" id="popup-1"></div> -->
     <main>
-        <!-- Conteúdo principal aqui -->
+      <section class="intro">
+        <div class="fc24-window">
+          <div class="fc24-text">
+            <h3>Lorem ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              adipisci sapiente pariatur maxime?
+            </p>
+            <button class="button-anim">Ver mais</button>
+          </div>
+          <div class="fc24-img">
+            <img src="assets/img/eahaaland24.png" alt="" />
+            <img src="assets/img/eaport24z.png" alt="" />
+            <img src="assets/img/fc24haaland.png" alt="" />
+            <img src="assets/img/fem24.png" alt="" />
+            <img src="assets/img/red24.png" alt="" />
+          </div>
+        </div>
+        <div class="container-square">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+        <div class="container-verMais">
+          <button id="verMais">Ver Mais</button>
+        </div>
+      </section>
     </main>
     <div class="rodape">
-        <div class="rodape-conteudo">
-          <h2>Contato</h2>
-          <p>Email: contato@paldesports.com.br</p>
-          <p>Telefone: (00) 1234-5678</p>
-          <p>Endereço: Porto Alegre, Rio Grande do Sul</p>
-        </div>
+      <div class="rodape-conteudo">
+        <h2>Contato</h2>
+        <p>Email: contato@paldesports.com.br</p>
+        <p>Telefone: (00) 1234-5678</p>
+        <p>Endereço: Porto Alegre, Rio Grande do Sul</p>
       </div>
+    </div>
+    <div class="footer">
+      <div class="footer-text">
+        <p>PaldEsports - © 2024. Todos os direitos reservados.</p>
+      </div>
+    </div>
     <script src="scripts/modeToggle.js"></script>
-</body>
-
+    <script src="scripts/image-animation.js"></script>
+    <script src="scripts/display.js"></script>
+  </body>
 </html>
